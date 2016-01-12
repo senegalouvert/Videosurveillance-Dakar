@@ -1,0 +1,40 @@
+{
+    "name": "Videosurveillance-Dakar",
+    "title": "Carte des caméras de vidéosurveillance à Dakar",
+    "description": "Ce dataset a pour but de geolocaliser les caméras de vidéosurveillance de la ville de Dakar",
+    "keywords": [
+        "caméras",
+        "Dakar",
+        "geolocalisation",
+        "senegalouvert",
+        "open knowledge"
+    ],
+    "datapackage_version": "1.0-beta.10",
+    "licenses": [
+        {
+            "type": "cc-zero",
+            "url": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+    ],
+    "sources": [
+        {
+            "name": "senegalouvert",
+            "web": "http://senegalouvert.org"
+        }
+    ],
+    "maintainers": [
+        {
+            "name": "Mamadou Daigne",
+            "web": "https://github.com/genova"        
+        }
+    ],
+    "base": "https://github.com/senegalouvert/Videosurveillance-Dakar",
+    "resources": [
+        {
+            "path": "/data/cameras.geojson",
+            "name": "Videosurveillance-Dakar",
+            "format": "geojson",
+            "mediatype": "application/json"
+        }
+    ]
+}
